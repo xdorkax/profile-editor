@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Profile editor</title>
+
+		<link rel="stylesheet" href="public/style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap"
+		rel="stylesheet"/>
+	</head>
+	<body>
+		<form id="profile-form">
+			<h3>First name</h3>
+			<input type="text" name="firstName">
+
+			<h3>Surname</h3>
+			<input type="text" name="surName">
+
+			<h3>ZIP</h3>
+			<input type="text" name="zip">
+
+			<h3>Country</h3>
+			<input type="text" name="country">
+
+			<h3>City</h3>
+			<input type="text" name="city">
+
+			<h3>Street</h3>
+			<input type="text" name="street">
+
+			<h3>House number</h3>
+			<input type="text" name="houseNumber">
+
+			<h3>Introduction</h3>
+			<textarea name="introduction"></textarea>
+
+			<button type="button" id="save-profile">Save profile!</button>
+		</form>
+
+		<h3>Profilkép</h3>
+		<input type="file" id="file">
+
+		<h3>Delete profile</h3>
+		<button id="deleteProfile">Törlés</button>
+
+		<script src="public/script.js"></script>
+	</body>
+</html>
